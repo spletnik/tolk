@@ -38,7 +38,7 @@ module Tolk
         @_primary_locale = nil if reload
         @_primary_locale ||= begin
           raise "Primary locale is not set. Please set Locale.primary_locale_name in your application's config file" unless self.primary_locale_name
-          find_or_create_by(name: self.primary_locale_name)
+          find_or_create_by_name(self.primary_locale_name)
         end
       end
 
