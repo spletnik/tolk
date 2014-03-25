@@ -120,6 +120,6 @@ DEPENDENCIES
   launchy
   mocha
   rails (= 4.0.2)
-  safe_yaml (>= 0.8.6)
+  safe_yaml
   selenium-webdriver
   sqlite3

@@ -3,7 +3,7 @@ source "http://rubygems.org"
 gem "rails", "4.0.2"
 
 gem 'kaminari'
-gem 'safe_yaml', '>= 0.8.6'
+gem 'safe_yaml'
 
 group 'test' do
   gem 'capybara'
